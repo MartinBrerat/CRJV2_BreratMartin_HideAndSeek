@@ -990,3 +990,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.01-09.42.36:053][ 64]LogContentValidation: Display: Validating Texture2D /Game/Assets/T_Checker1024_Red.T_Checker1024_Red
 [2023.02.01-09.42.36:053][ 64]LogContentValidation: Display: Validating Material /Game/Assets/Material__44.Material__44
 [2023.02.01-09.42.36:053][ 64]LogContentValidation: Display: Validating StaticMesh /Game/Assets/PHYS_porteTrappe.PHYS_porteTrappe
+[2023.02.01-09.46.59:166][742]LogSlate: Took 0.005987 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
