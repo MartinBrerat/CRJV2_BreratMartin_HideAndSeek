@@ -2181,3 +2181,374 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.01-10.38.27:439][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.02.01-10.38.27:444][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
 [2023.02.01-10.38.27:477][872]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.02.01-10.38.52:561][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.02.01-10.38.52:578][ 53]LogSavePackage: Moving 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/FirstPersonExampleMap_Auto6A57B70B444F5ABB4749FF89E33CA44F9.tmp' to 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2023.02.01-10.38.52:579][ 53]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.039
+[2023.02.01-10.38.52:579][ 53]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.02.01-10.47.21:569][801]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.01-10.47.21:575][801]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.01-10.47.21:576][801]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2023.02.01-10.47.21:631][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.02.01-10.47.21:634][801]LogPlayLevel: PlayLevel: Blueprint regeneration took 59 ms (1 blueprints)
+[2023.02.01-10.47.21:634][801]PIE: New page: PIE session: FirstPersonExampleMap (1 févr. 2023 à 12:47:21)
+[2023.02.01-10.47.21:635][801]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.47.21:644][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010738s)
+[2023.02.01-10.47.21:645][801]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.02.01-10.47.21:646][801]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2023.02.01-10.47.21:646][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012104s)
+[2023.02.01-10.47.21:670][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.02.01-10.47.21:671][801]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.01-10.47.21:671][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.01-10.47.21:672][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.01-10.47.21:672][801]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.01-10.47.21:672][801]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.01-10.47.21:672][801]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.01-10.47.21:672][801]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.01-10.47.21:675][801]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.01-10.47.21:675][801]LogAudioMixer: Display: 1: FrontRight
+[2023.02.01-10.47.21:686][801]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek(R) Audio)
+[2023.02.01-10.47.21:687][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.01-10.47.21:687][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.01-10.47.21:687][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.01-10.47.21:687][801]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.01-10.47.21:687][801]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.01-10.47.21:687][801]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.01-10.47.21:688][801]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.01-10.47.21:688][801]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.01-10.47.21:688][801]LogInit: FAudioDevice initialized.
+[2023.02.01-10.47.21:688][801]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonExampleMap'.
+[2023.02.01-10.47.21:696][801]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.02.01-10.47.21:698][801]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.02.01-11.47.21
+[2023.02.01-10.47.21:698][801]LogWorld: Bringing up level for play took: 0.001438
+[2023.02.01-10.47.21:698][801]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2023.02.01-10.47.21:700][801]PIE: Server logged in
+[2023.02.01-10.47.21:701][801]PIE: Play in editor total start time 0,127 seconds.
+[2023.02.01-10.47.26:547][376]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1080.748 Y=-843.905 Z=275.836] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.26:647][388]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=986.292 Y=-842.452 Z=277.955] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.32:748][120]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1251.938 Y=-1781.414 Z=305.393] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.32:848][132]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1276.576 Y=-1801.891 Z=311.570] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.32:949][144]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1298.020 Y=-1793.168 Z=325.485] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.45:053][596]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1115.204 Y=1622.490 Z=168.359] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.50:948][303]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1482.022 Y=1772.305 Z=248.360] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:048][315]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1509.870 Y=1772.621 Z=244.708] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:148][327]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1528.186 Y=1767.959 Z=244.704] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:248][339]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1515.050 Y=1759.470 Z=222.365] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:348][351]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1458.663 Y=1709.692 Z=165.692] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:448][363]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1449.508 Y=1687.678 Z=156.197] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:547][375]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1449.508 Y=1687.679 Z=156.196] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:648][387]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1449.508 Y=1687.678 Z=156.197] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:747][399]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1449.508 Y=1687.678 Z=156.197] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.51:848][411]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1453.916 Y=1704.794 Z=161.090] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.52:048][435]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1459.358 Y=1735.744 Z=179.748] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:390][ 76]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1482.245 Y=1335.496 Z=167.937] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:482][ 87]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1472.509 Y=1363.060 Z=160.345] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:581][ 99]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1471.262 Y=1351.183 Z=164.085] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:682][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1497.257 Y=1300.069 Z=203.509] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:781][123]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1508.591 Y=1288.083 Z=220.276] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:882][135]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1513.689 Y=1305.456 Z=214.641] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.57:981][147]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1517.370 Y=1304.580 Z=205.558] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.58:081][159]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1529.715 Y=1311.214 Z=205.531] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.58:181][171]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1537.151 Y=1295.881 Z=212.918] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.58:281][183]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1531.463 Y=1278.475 Z=219.072] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.58:381][195]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1526.962 Y=1273.986 Z=222.585] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.58:482][207]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1521.068 Y=1296.055 Z=196.744] for [FirstPersonProjectile_C]
+[2023.02.01-10.47.58:581][219]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1518.824 Y=1305.135 Z=191.579] for [FirstPersonProjectile_C]
+[2023.02.01-10.48.08:885][455]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-270.535 Y=-1641.992 Z=268.711] for [FirstPersonProjectile_C]
+[2023.02.01-10.48.14:785][163]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1394.261 Y=-1164.115 Z=272.756] for [FirstPersonProjectile_C]
+[2023.02.01-10.48.14:885][175]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1392.931 Y=-1169.610 Z=273.651] for [FirstPersonProjectile_C]
+[2023.02.01-10.48.21:987][ 27]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1333.904 Y=1177.134 Z=258.767] for [FirstPersonProjectile_C]
+[2023.02.01-10.49.31:150][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.49.31:150][313]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.49.31:150][313]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.01-10.49.31:151][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-10.49.31:163][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.01-10.49.31:170][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-10.49.31:188][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.49.31:188][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-10.49.31:189][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-10.49.31:195][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.02.01-10.49.31:223][314]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.02.01-10.51.02:705][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.02.01-10.51.02:722][654]LogSavePackage: Moving 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/FirstPersonExampleMap_Auto74B44F224438DCAB24C826ABA90992E6E.tmp' to 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2023.02.01-10.51.02:722][654]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.039
+[2023.02.01-10.51.02:722][654]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.02.01-10.51.02:723][654]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/BP_Camera] ([4] browsable assets)...
+[2023.02.01-10.51.02:735][654]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/BP_Camera.BP_Camera]
+[2023.02.01-10.51.02:746][654]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/BP_Camera.BP_Camera]
+[2023.02.01-10.51.02:747][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/BP_Camera]
+[2023.02.01-10.51.02:757][654]LogSavePackage: Moving 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/BP_Camera_Auto7EFA4737C4CD1BF85C3DDC39587BF0C8E.tmp' to 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Autosaves/Game/Actors/BP_Camera_Auto7.uasset'
+[2023.02.01-10.51.02:757][654]LogFileHelpers: Auto-saving content packages took 0.035
+[2023.02.01-10.56.16:448][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2023.02.01-10.56.38:593][693]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.01-10.56.42:548][820]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.01-10.56.44:775][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Camera" FILE="C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Actors/BP_Camera.uasset" SILENT=true
+[2023.02.01-10.56.44:786][ 75]LogSavePackage: Moving 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/BP_CameraE55A1D65457D56E8D5251892C29D1D84.tmp' to 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Actors/BP_Camera.uasset'
+[2023.02.01-10.56.44:800][ 75]AssetCheck: New page: Asset Save: BP_Camera
+[2023.02.01-10.56.44:800][ 75]LogContentValidation: Display: Validating Blueprint /Game/Actors/BP_Camera.BP_Camera
+[2023.02.01-10.56.47:711][406]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.01-10.56.47:717][406]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.01-10.56.47:718][406]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2023.02.01-10.56.47:764][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.02.01-10.56.47:767][406]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (1 blueprints)
+[2023.02.01-10.56.47:767][406]PIE: New page: PIE session: FirstPersonExampleMap (1 févr. 2023 à 12:56:47)
+[2023.02.01-10.56.47:767][406]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.56.47:777][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009751s)
+[2023.02.01-10.56.47:778][406]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.02.01-10.56.47:778][406]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2023.02.01-10.56.47:778][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011109s)
+[2023.02.01-10.56.47:801][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.02.01-10.56.47:802][406]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.01-10.56.47:802][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.01-10.56.47:802][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.01-10.56.47:803][406]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.01-10.56.47:803][406]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.01-10.56.47:803][406]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.01-10.56.47:803][406]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.01-10.56.47:805][406]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.01-10.56.47:805][406]LogAudioMixer: Display: 1: FrontRight
+[2023.02.01-10.56.47:815][406]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek(R) Audio)
+[2023.02.01-10.56.47:816][406]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.01-10.56.47:816][406]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.01-10.56.47:816][406]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.01-10.56.47:816][406]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.01-10.56.47:816][406]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.01-10.56.47:816][406]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.01-10.56.47:817][406]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.01-10.56.47:817][406]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.01-10.56.47:817][406]LogInit: FAudioDevice initialized.
+[2023.02.01-10.56.47:817][406]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonExampleMap'.
+[2023.02.01-10.56.47:824][406]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.02.01-10.56.47:826][406]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.02.01-11.56.47
+[2023.02.01-10.56.47:826][406]LogWorld: Bringing up level for play took: 0.001544
+[2023.02.01-10.56.47:827][406]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2023.02.01-10.56.47:828][406]PIE: Server logged in
+[2023.02.01-10.56.47:829][406]PIE: Play in editor total start time 0,112 seconds.
+[2023.02.01-10.56.50:286][697]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.56.50:294][698]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.56.55:870][367]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.56.55:870][367]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.56.55:887][369]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.56.57:450][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.56.57:450][550]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.56.57:450][550]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.01-10.56.57:451][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-10.56.57:463][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.01-10.56.57:476][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-10.56.57:495][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.56.57:495][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-10.56.57:496][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-10.56.57:501][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.02.01-10.56.57:529][551]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.02.01-10.58.09:988][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Camera" FILE="C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Actors/BP_Camera.uasset" SILENT=true
+[2023.02.01-10.58.10:000][818]LogSavePackage: Moving 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/BP_Camera3CB491A24075697E5CB8DE967820C718.tmp' to 'C:/Users/d.goarant/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Actors/BP_Camera.uasset'
+[2023.02.01-10.58.10:013][818]AssetCheck: New page: Asset Save: BP_Camera
+[2023.02.01-10.58.10:013][818]LogContentValidation: Display: Validating Blueprint /Game/Actors/BP_Camera.BP_Camera
+[2023.02.01-10.58.12:301][ 58]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.01-10.58.12:307][ 58]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.01-10.58.12:307][ 58]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2023.02.01-10.58.12:351][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.02.01-10.58.12:353][ 58]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
+[2023.02.01-10.58.12:353][ 58]PIE: New page: PIE session: FirstPersonExampleMap (1 févr. 2023 à 12:58:12)
+[2023.02.01-10.58.12:353][ 58]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.58.12:363][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009938s)
+[2023.02.01-10.58.12:364][ 58]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.02.01-10.58.12:364][ 58]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2023.02.01-10.58.12:364][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011106s)
+[2023.02.01-10.58.12:386][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.02.01-10.58.12:389][ 58]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.01-10.58.12:389][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.01-10.58.12:389][ 58]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.01-10.58.12:389][ 58]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.01-10.58.12:389][ 58]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.01-10.58.12:389][ 58]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.01-10.58.12:391][ 58]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.01-10.58.12:391][ 58]LogAudioMixer: Display: 1: FrontRight
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek(R) Audio)
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.01-10.58.12:402][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.01-10.58.12:403][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.01-10.58.12:403][ 58]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.01-10.58.12:403][ 58]LogInit: FAudioDevice initialized.
+[2023.02.01-10.58.12:403][ 58]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstPersonExampleMap'.
+[2023.02.01-10.58.12:407][ 58]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.02.01-10.58.12:409][ 58]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.02.01-11.58.12
+[2023.02.01-10.58.12:409][ 58]LogWorld: Bringing up level for play took: 0.001368
+[2023.02.01-10.58.12:409][ 58]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2023.02.01-10.58.12:410][ 58]PIE: Server logged in
+[2023.02.01-10.58.12:411][ 58]PIE: Play in editor total start time 0,105 seconds.
+[2023.02.01-10.58.15:390][413]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.15:390][413]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.15:440][419]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.16:016][488]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.16:065][494]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.16:074][495]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.16:766][578]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.16:782][580]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.16:832][586]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.17:699][690]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.17:749][696]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.17:883][712]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.19:457][901]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.19:466][902]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.19:483][904]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.20:141][983]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.20:167][986]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.20:383][ 12]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.20:432][ 18]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.20:558][ 33]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.22:775][299]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.23:125][341]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.23:209][351]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.23:390][373]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.23:516][388]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.23:858][429]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.24:725][533]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.24:733][534]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.24:842][547]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.25:233][594]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.25:366][610]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.25:791][661]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.25:916][676]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.26:167][706]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.26:291][721]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.26:816][784]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.26:850][788]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.27:049][812]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.27:099][818]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.27:675][887]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.27:733][894]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.28:075][935]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.28:075][935]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.28:141][943]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.28:846][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.58.28:846][ 25]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.58.28:846][ 25]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.01-10.58.28:846][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-10.58.28:869][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.01-10.58.28:884][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-10.58.28:908][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.58.28:908][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-10.58.28:909][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-10.58.28:915][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.02.01-10.58.28:944][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.02.01-10.58.36:813][937]LogEditorTransaction: Undo Set Vector Property
+[2023.02.01-10.58.41:032][383]LogEditorTransaction: Undo Set Vector Property
+[2023.02.01-10.58.47:138][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.01-10.58.47:144][ 52]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.01-10.58.47:144][ 52]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2023.02.01-10.58.47:193][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.02.01-10.58.47:196][ 52]LogPlayLevel: PlayLevel: Blueprint regeneration took 52 ms (1 blueprints)
+[2023.02.01-10.58.47:196][ 52]PIE: New page: PIE session: FirstPersonExampleMap (1 févr. 2023 à 12:58:47)
+[2023.02.01-10.58.47:196][ 52]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-10.58.47:208][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010936s)
+[2023.02.01-10.58.47:208][ 52]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.02.01-10.58.47:208][ 52]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2023.02.01-10.58.47:209][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011956s)
+[2023.02.01-10.58.47:232][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.02.01-10.58.47:233][ 52]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.01-10.58.47:233][ 52]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.01-10.58.47:233][ 52]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.01-10.58.47:233][ 52]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.01-10.58.47:233][ 52]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.01-10.58.47:233][ 52]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.01-10.58.47:235][ 52]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.01-10.58.47:235][ 52]LogAudioMixer: Display: 1: FrontRight
+[2023.02.01-10.58.47:246][ 52]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek(R) Audio)
+[2023.02.01-10.58.47:246][ 52]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.01-10.58.47:246][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.01-10.58.47:246][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.01-10.58.47:247][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.01-10.58.47:247][ 52]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.01-10.58.47:247][ 52]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.01-10.58.47:248][ 52]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.01-10.58.47:248][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.01-10.58.47:248][ 52]LogInit: FAudioDevice initialized.
+[2023.02.01-10.58.47:248][ 52]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstPersonExampleMap'.
+[2023.02.01-10.58.47:304][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-10.58.47:304][ 52]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.02.01-10.58.47:306][ 52]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.02.01-11.58.47
+[2023.02.01-10.58.47:307][ 52]LogWorld: Bringing up level for play took: 0.001808
+[2023.02.01-10.58.47:307][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2023.02.01-10.58.47:310][ 52]PIE: Server logged in
+[2023.02.01-10.58.47:311][ 52]PIE: Play in editor total start time 0,168 seconds.
+[2023.02.01-10.58.49:594][303]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.49:602][304]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.49:693][315]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.51:822][569]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.51:855][573]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.51:880][576]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.52:447][644]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.52:647][668]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.53:307][747]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.53:324][749]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.56:656][147]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.56:689][151]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.56:698][152]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.57:444][241]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.57:494][247]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.57:703][272]LogBlueprintUserMessages: [BP_Camera_2] BEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDOBEEDO
+[2023.02.01-10.58.59:004][427]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1340.522 Y=763.596 Z=325.515] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:098][438]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1335.547 Y=765.281 Z=323.909] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:198][450]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1335.541 Y=765.382 Z=323.555] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:299][462]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1335.522 Y=765.406 Z=323.523] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:400][474]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1335.592 Y=765.318 Z=323.642] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:501][486]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1327.647 Y=790.183 Z=290.858] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:600][498]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1320.483 Y=798.472 Z=273.709] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:701][510]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1312.091 Y=803.536 Z=257.237] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:800][522]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1311.484 Y=803.791 Z=256.154] for [FirstPersonProjectile_C]
+[2023.02.01-10.58.59:901][534]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1311.484 Y=803.791 Z=256.154] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.00:002][546]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1288.331 Y=802.460 Z=219.301] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.00:105][558]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1271.203 Y=798.843 Z=199.893] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.00:204][570]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1270.980 Y=798.874 Z=199.740] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.00:305][582]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1258.285 Y=794.764 Z=200.125] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.10:543][806]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=801.216 Y=-1545.995 Z=161.804] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.10:642][818]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=825.491 Y=-1572.711 Z=159.999] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.10:743][830]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=848.980 Y=-1606.534 Z=159.978] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.10:842][842]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=869.209 Y=-1641.499 Z=159.790] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.10:943][854]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=873.993 Y=-1668.848 Z=161.080] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.11:042][866]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=855.458 Y=-1668.482 Z=166.471] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.11:142][878]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=855.586 Y=-1668.442 Z=166.336] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.11:242][890]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=855.587 Y=-1668.442 Z=166.336] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.11:346][902]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=851.214 Y=-1671.159 Z=168.962] for [FirstPersonProjectile_C]
+[2023.02.01-10.59.11:446][914]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=851.388 Y=-1671.371 Z=169.240] for [FirstPersonProjectile_C]
+[2023.02.01-11.02.18:877][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-11.02.18:878][361]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.02.01-11.02.18:878][361]LogSlate: Window 'CRJV2_BreratMartin_HideAnd Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.02.01-11.02.18:888][361]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.01-11.02.18:888][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-11.02.18:902][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.01-11.02.18:916][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-11.02.18:937][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-11.02.18:938][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-11.02.18:944][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.01-11.02.18:986][362]LogPlayLevel: Display: Destroying online subsystem :Context_31
