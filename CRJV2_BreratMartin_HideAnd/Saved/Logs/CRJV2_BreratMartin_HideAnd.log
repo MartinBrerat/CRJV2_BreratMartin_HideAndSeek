@@ -962,3 +962,118 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2023.03.20-13.53.21:455][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.03.20-13.53.21:496][  0]LogSlate: Took 0.009683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.03.20-13.53.21:735][  2]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.20-13.57.40:419][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Game Design\T3\Objets fini\Biblio_Unique.fbx)
+[2023.03.20-13.57.40:511][308]LogFbx: Loading FBX Scene from E:\Game Design\T3\Objets fini\Biblio_Unique.fbx
+[2023.03.20-13.57.40:525][308]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.20-13.57.42:087][308]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.03.20-13.57.42:206][308]LogMaterial: Display: Missing cached shadermap for lambert1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3089D7C775F238F202CDEF1255E6EDEED2BAF171), compiling. 
+[2023.03.20-13.57.42:227][308]LogFbx: Display: Triangulating static mesh Biblio
+[2023.03.20-13.57.42:275][308]LogStaticMesh: Building static mesh Biblio_Unique...
+[2023.03.20-13.57.42:298][308]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Biblio_Unique.Biblio_Unique
+[2023.03.20-13.57.42:301][308]LogStaticMesh: Warning: Biblio_Unique has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.03.20-13.57.42:301][308]LogStaticMesh: Warning: Biblio_Unique has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.42:331][308]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.20-13.57.42:331][308]FBXImport: Warning: Biblio_Unique has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.03.20-13.57.42:331][308]FBXImport: Warning: Biblio_Unique has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.42:423][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Game Design\T3\Objets fini\Commode.fbx)
+[2023.03.20-13.57.42:439][308]LogFbx: Loading FBX Scene from E:\Game Design\T3\Objets fini\Commode.fbx
+[2023.03.20-13.57.42:446][308]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.20-13.57.42:447][308]LogFbx: Display: Triangulating static mesh Commode
+[2023.03.20-13.57.42:543][308]LogStaticMesh: Building static mesh Commode...
+[2023.03.20-13.57.42:619][308]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/Commode.Commode
+[2023.03.20-13.57.42:630][308]LogStaticMesh: Warning: Commode has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.03.20-13.57.42:630][308]LogStaticMesh: Warning: Commode has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.42:646][308]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.20-13.57.42:646][308]FBXImport: Warning: Commode has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.03.20-13.57.42:646][308]FBXImport: Warning: Commode has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.42:667][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Game Design\T3\Objets fini\Livres_Biblio.fbx)
+[2023.03.20-13.57.42:674][308]LogFbx: Loading FBX Scene from E:\Game Design\T3\Objets fini\Livres_Biblio.fbx
+[2023.03.20-13.57.42:681][308]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.20-13.57.42:684][308]LogFbx: Display: Triangulating static mesh Livres
+[2023.03.20-13.57.42:821][308]LogStaticMesh: Building static mesh Livres_Biblio...
+[2023.03.20-13.57.42:972][308]LogStaticMesh: Built static mesh [0.15s] /Game/Assets/Livres_Biblio.Livres_Biblio
+[2023.03.20-13.57.42:988][308]LogStaticMesh: Warning: Livres_Biblio has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.03.20-13.57.42:988][308]LogStaticMesh: Warning: Livres_Biblio has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.43:007][308]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.20-13.57.43:007][308]FBXImport: Warning: Livres_Biblio has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.03.20-13.57.43:007][308]FBXImport: Warning: Livres_Biblio has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.43:033][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Game Design\T3\Objets fini\Porte_Biblio_001.fbx)
+[2023.03.20-13.57.43:041][308]LogFbx: Loading FBX Scene from E:\Game Design\T3\Objets fini\Porte_Biblio_001.fbx
+[2023.03.20-13.57.43:046][308]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.20-13.57.43:048][308]LogFbx: Display: Triangulating static mesh Porte_Biblio_001
+[2023.03.20-13.57.43:059][308]LogStaticMesh: Building static mesh Porte_Biblio_001...
+[2023.03.20-13.57.43:065][308]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Porte_Biblio_001.Porte_Biblio_001
+[2023.03.20-13.57.43:066][308]LogStaticMesh: Warning: Porte_Biblio_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.03.20-13.57.43:066][308]LogStaticMesh: Warning: Porte_Biblio_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.43:071][308]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.20-13.57.43:071][308]FBXImport: Warning: Porte_Biblio_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.03.20-13.57.43:071][308]FBXImport: Warning: Porte_Biblio_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.43:077][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Game Design\T3\Objets fini\Porte_Biblio_002.fbx)
+[2023.03.20-13.57.43:090][308]LogFbx: Loading FBX Scene from E:\Game Design\T3\Objets fini\Porte_Biblio_002.fbx
+[2023.03.20-13.57.43:095][308]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.20-13.57.43:135][308]LogFbx: Display: Triangulating static mesh Porte_Biblio_002
+[2023.03.20-13.57.43:146][308]LogStaticMesh: Building static mesh Porte_Biblio_002...
+[2023.03.20-13.57.43:152][308]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Porte_Biblio_002.Porte_Biblio_002
+[2023.03.20-13.57.43:153][308]LogStaticMesh: Warning: Porte_Biblio_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.03.20-13.57.43:153][308]LogStaticMesh: Warning: Porte_Biblio_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.43:158][308]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.20-13.57.43:158][308]FBXImport: Warning: Porte_Biblio_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.03.20-13.57.43:158][308]FBXImport: Warning: Porte_Biblio_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.43:167][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Game Design\T3\Objets fini\Biblio_Modulaire.fbx)
+[2023.03.20-13.57.43:174][308]LogFbx: Loading FBX Scene from E:\Game Design\T3\Objets fini\Biblio_Modulaire.fbx
+[2023.03.20-13.57.43:179][308]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.20-13.57.43:180][308]LogFbx: Display: Triangulating static mesh Biblio_Modulaire
+[2023.03.20-13.57.43:204][308]LogStaticMesh: Building static mesh Biblio_Modulaire...
+[2023.03.20-13.57.43:225][308]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Biblio_Modulaire.Biblio_Modulaire
+[2023.03.20-13.57.43:228][308]LogStaticMesh: Warning: Biblio_Modulaire has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.03.20-13.57.43:228][308]LogStaticMesh: Warning: Biblio_Modulaire has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.43:228][308]LogStaticMesh: Warning: Biblio_Modulaire has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.43:228][308]LogStaticMesh: Warning: Biblio_Modulaire has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.03.20-13.57.43:234][308]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.20-13.57.43:234][308]FBXImport: Warning: Biblio_Modulaire has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.03.20-13.57.43:234][308]FBXImport: Warning: Biblio_Modulaire has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.43:234][308]FBXImport: Warning: Biblio_Modulaire has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.43:234][308]FBXImport: Warning: Biblio_Modulaire has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.03.20-13.57.43:300][308]LogSlate: Took 0.016092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.20-13.57.43:464][313]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.20-13.57.43:464][313]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2023.03.20-13.57.43:464][313]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2023.03.20-13.57.43:464][313]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.20-13.57.43:500][313]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.20-13.57.43:634][315]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2023.03.20-13.57.43:634][315]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2023.03.20-13.57.43:634][315]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.20-13.57.44:608][401]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2023.03.20-13.57.44:608][401]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.03.20-13.57.44:625][401]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.20-13.57.44:625][401]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2023.03.20-13.57.44:625][401]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.03.20-13.57.44:625][401]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.03.20-13.57.44:625][401]LogShaderCompilers: Display: ================================================
+[2023.03.20-13.57.44:739][414]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2023.03.20-13.57.44:739][414]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.03.20-13.57.44:873][428]LogSlate: Window 'Message Log' being destroyed
+[2023.03.20-13.57.44:878][428]LogSlate: Window 'Message Log' being destroyed
+[2023.03.20-13.57.45:760][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2023.03.20-13.57.45:761][510]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.20-13.57.45:875][523]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2023.03.20-13.57.45:875][523]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.20-13.57.51:511][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Biblio_Modulaire381461104F53C5F3539843BB1EC05E07.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Biblio_Modulaire.uasset'
+[2023.03.20-13.57.51:526][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Porte_Biblio_00225BFA2B04775A250DBDF738985F27912.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Porte_Biblio_002.uasset'
+[2023.03.20-13.57.51:541][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Porte_Biblio_001285ACE3E4EF06530A5D8A0A83AE5A334.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Porte_Biblio_001.uasset'
+[2023.03.20-13.57.51:548][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Livres_Biblio" FILE="C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Livres_Biblio.uasset" SILENT=true
+[2023.03.20-13.57.51:569][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Livres_Biblio54993ECB4A36751B25F98FBA14A86B51.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Livres_Biblio.uasset'
+[2023.03.20-13.57.51:576][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Commode" FILE="C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Commode.uasset" SILENT=true
+[2023.03.20-13.57.51:591][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Commode06731BDD44EEFB025A788B8B14F27C82.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Commode.uasset'
+[2023.03.20-13.57.51:599][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert1" FILE="C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/lambert1.uasset" SILENT=true
+[2023.03.20-13.57.51:604][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/lambert1837A141F405BE33A36BFA0B00A010E92.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/lambert1.uasset'
+[2023.03.20-13.57.51:612][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Biblio_Unique" FILE="C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Biblio_Unique.uasset" SILENT=true
+[2023.03.20-13.57.51:621][829]LogSavePackage: Moving 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Biblio_Unique16180F7646A19AF1E57924A8B611F58F.tmp' to 'C:/Users/l.herbert/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Content/Assets/Biblio_Unique.uasset'
+[2023.03.20-13.57.51:631][829]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.20-13.57.51:631][829]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Biblio_Modulaire.Biblio_Modulaire
+[2023.03.20-13.57.51:632][829]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Porte_Biblio_002.Porte_Biblio_002
+[2023.03.20-13.57.51:632][829]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Porte_Biblio_001.Porte_Biblio_001
+[2023.03.20-13.57.51:632][829]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Livres_Biblio.Livres_Biblio
+[2023.03.20-13.57.51:632][829]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Commode.Commode
+[2023.03.20-13.57.51:632][829]LogContentValidation: Display: Validating Material /Game/Assets/lambert1.lambert1
+[2023.03.20-13.57.51:632][829]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Biblio_Unique.Biblio_Unique
