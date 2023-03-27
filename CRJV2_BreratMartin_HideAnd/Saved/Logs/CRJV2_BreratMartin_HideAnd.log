@@ -11313,3 +11313,10 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2023.03.27-11.45.05:698][ 20]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.27-11.45.05:698][ 20]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
 [2023.03.27-11.45.05:699][ 20]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2023.03.27-11.55.05:136][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.03.27-11.55.05:142][248]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.031
+[2023.03.27-11.55.05:142][248]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([2] browsable assets)...
+[2023.03.27-11.55.05:162][248]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2023.03.27-11.55.05:162][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2023.03.27-11.55.05:231][248]LogSavePackage: Moving 'C:/Users/game/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/FirstPersonCharacter_Auto2A83A34CC4728F0269A3C5CA3E7E8331A.tmp' to 'C:/Users/game/Documents/CRJV2_BreratMartin_HideAndSeek/CRJV2_BreratMartin_HideAnd/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2023.03.27-11.55.05:231][248]LogFileHelpers: Auto-saving content packages took 0.090
