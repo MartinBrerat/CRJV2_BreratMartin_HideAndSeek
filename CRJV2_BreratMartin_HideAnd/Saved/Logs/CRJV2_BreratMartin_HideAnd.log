@@ -1347,3 +1347,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.29-08.02.18:327][ 78]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.29-08.02.18:327][ 78]LogContentValidation: Display: Validating World /Game/Levels/Assets.Assets
 [2023.03.29-08.02.18:327][ 78]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Assets_BuiltData.Assets_BuiltData
+[2023.03.29-08.28.24:213][482]LogSlate: Took 0.014081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
