@@ -896,6 +896,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.29-09.29.09:949][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.03.29-09.29.09:957][  0]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.03.29-09.29.10:049][  3]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+<<<<<<< HEAD
 [2023.03.29-09.46.13:219][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
 [2023.03.29-09.46.13:241][138]LogSlate: Window 'CRJV2_BreratMartin_HideAnd - Unreal Editor' being destroyed
 [2023.03.29-09.46.13:328][139]Cmd: QUIT_EDITOR
@@ -1376,3 +1377,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.29-09.46.17:673][139]LogD3D11RHI: CleanupD3DDevice
 [2023.03.29-09.46.17:674][139]LogExit: Exiting.
 [2023.03.29-09.46.17:681][139]Log file closed, 03/29/23 11:46:17
+=======
+>>>>>>> be6a401387b8db0efd7b422ec409dad3d9bb8a9d
